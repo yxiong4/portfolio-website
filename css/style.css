@@ -50,6 +50,11 @@ h5 {
 img {
     width: 100%;
 }
+.header-img {
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
 a {
     color: #000000;
 }
@@ -139,11 +144,15 @@ header {
     box-shadow: 1px 12px 13px -2px rgba(176,176,176,0.25);
 -webkit-box-shadow: 1px 12px 13px -2px rgba(176,176,176,0.25);
 -moz-box-shadow: 1px 12px 13px -2px rgba(176,176,176,0.25);
-    position: relative;
+    position: fixed;
     width:100%; 
 }
 .logo {
     max-width: 100px;
+}
+.logo-img {
+    width: 300px;
+    height: auto;
 }
 nav > ul {
     list-style-type: none;

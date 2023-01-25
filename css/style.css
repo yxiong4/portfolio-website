@@ -50,6 +50,10 @@ h5 {
 img {
     width: 100%;
 }
+.profile-img {
+    width: 60%;
+    padding-top: 80px;
+}
 .header-img {
     width: 40%;
     padding: 20px;
@@ -123,12 +127,12 @@ a:focus {
 #hero p {
     text-align: center;
 }
-#work h2 {
+#work-page h2 {
     text-align: center;
 }
-#work h4 {
+#work-page h4 {
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
 }
 #contact {
     text-align: center;
@@ -153,6 +157,9 @@ header {
 .logo-img {
     width: 300px;
     height: auto;
+}
+.alodia-img {
+    max-width: 100%;
 }
 nav > ul {
     list-style-type: none;
@@ -195,17 +202,18 @@ main {
     padding-top: 99px;
 }
 /* About Page */
-#about h1 { 
+#about-page h1 { 
     text-align: center;
 }
-#about p {
-    text-align: left;
+#about-page p {
+    text-align: center;
 }
-#about h3 {
+#about-page h3 {
     text-align: center;
 }
 #about a {
     text-align: center;
+
 }
 /* Medium devices (640px and larger) */
 @media only screen and (min-width: 640px) {
@@ -220,10 +228,12 @@ main {
     }
     .col-md-6 {
         width: 50%;
+        float: left;
     }
     [class*="col-"] {
         float: left;
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .row::after {
         content: "";
@@ -236,12 +246,13 @@ main {
         margin-right: auto;
     }
     body { 
-        font-size: 18px;
+        font-size: 13px;
     }
     #hero span {
         display: block;
     }
     #about-page h3 {margin-top: 0;}
+    #work-page h4 {margin-top: 0;}
 }
 /* Large devices (1024px or larger) */
 @media only screen and (min-width: 1024px) {
@@ -263,11 +274,6 @@ main {
         width:58.33%;
         float: left; 
         padding: 15px;
-    }
-    .row::after {
-        content:"";
-        clear: both;
-        display: table;
     }
 }
 /* Ray the Sun Animation */

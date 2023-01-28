@@ -226,6 +226,10 @@ main {
         float: right;
         margin-top: 4px;
     }
+    .col-md-1 {
+        width: 100%;
+        float: left;
+    }
     .col-md-6 {
         width: 50%;
         float: left;
@@ -265,10 +269,18 @@ main {
         float: right;
         margin-top: 4px;
     }
+    .col-lg-1 {
+        width: 100%;
+        float: left;
+    }
     .col-lg-5 {
         width: 41.66%;
         float: left;
         padding: 15px;
+    }
+    .col-lg-6 {
+        width: 50%;
+        float: left;
     }
     .col-lg-7 {
         width:58.33%;

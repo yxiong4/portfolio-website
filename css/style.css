@@ -194,7 +194,7 @@ nav > ul > li > a:hover {
     width: 100%
 }
 main {
-    padding-top: 99px;
+    padding-top: 108px;
 }
 /* About Page */
 #about-page h1 { 
@@ -212,13 +212,23 @@ main {
 .navtoggle li:not(:last-child) {
     display: none;
 }
-.navtoggle.responsive nav {
-    padding: 24px 0 0;
+.navtoggle, .navtoggle.responsive {
+        position: relative;
+}
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top:2px;
+    font-size: 20px;
+    padding-right: 0;
 }
 .navtoggle.responsive li {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid rgba(255,127,80,0.5);
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
 }
 .navtoggle.responsive li:last-child {
     padding: 0 0 10px;
@@ -275,17 +285,7 @@ main {
         display: inline-block;
     }
     .navtoggle li:last-child {
-        display: inline-block;
-    }
-    .navtoggle, .navtoggle.responsive {
-        position: relative;
-    }
-    .navtoggle li .icon {
-        position: absolute;
-        right: 0;
-        top: 2px;
-        font-size: 20px;
-        padding-right: 0;
+        display: none;
     }
 }
 /* Large devices (1024px or larger) */

@@ -8,10 +8,12 @@
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <i class="fa-solid fa-bars"></i>
     </head>
     <body>
         <header>
             <div class="container">
+                <div class="navtoggle" id="myNavtoggle">
                 <picture>
                     <source srcset="img/logo.svg" media="(max-width:767px)">
                     <img class="logo-img" src="img/logo.svg" alt="Logo">
@@ -20,7 +22,8 @@
                     <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href= "#contact" onclick="menuToggle()">Contacts</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
                     </ul>
                 </nav>
             </div>
@@ -188,6 +191,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>

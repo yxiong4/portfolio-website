@@ -16,7 +16,7 @@ nav {
 body {
     background-color: #FFFFFF;
     font-family: 'Poppins', san-serif;
-    font-size: 16px; /* Sets font size to 16px */
+    font-size: 20px; /* Sets font size to 16px */
     font-weight: 300; /* Sets the font weight to 300 */
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
     color: #000000;
@@ -60,20 +60,20 @@ a {
     color: #000000;
 }
 a:hover {
-    color: #9DD674;
-    text-decoration: underline;
+    color: #4E8427;
+    text-decoration: none;
 }
 a:visited {
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:active {
-    color: #9DD674;
+    color: #4E8427;
 }
 a:hover,
 a:focus {
-    color: #9DD674;
-    text-decoration: underline;
+    color: #4E8427;
+    text-decoration: none;
 }
 .button {
     display: inline-block;
@@ -96,16 +96,16 @@ a:focus {
 }
 .button.contact {
     background-color: transparent;
-    color: #9DD674;
+    color: #4E8427;
     text-transform: none;
-    border: 2px solid #9DD674;
+    border: 2px solid #4E8427;
 }
 .button.contact:hover {
-    background-color: #9DD674;
+    background-color: #4E8427;
     color: #FFFFFF;
 }
 .button.contact.active {
-    background-color: #9DD674;
+    background-color: #4E8427;
     color: #FFFFFF;
 }
 * {
@@ -179,13 +179,13 @@ nav > ul > li > a:active {
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #9DD674
+    color: #4E8427
 }
 nav > ul > li > a:hover {
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #9DD674
+    color: #4E8427
 }
 #hero {
     background-color: #FFFFFF;
